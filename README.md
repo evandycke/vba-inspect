@@ -13,19 +13,19 @@ Pour inspecter des ressources, nous allons utiliser des scripts en Python.
 Ce qu'il est requis pour commencer avec votre projet...
 
 - [Python](https://www.python.org/downloads/windows/)
-- [GitHub Desktop](https://desktop.github.com/)
-- Un compte pour accéder au dépot [Elosi](https://git.elosi.com/)
 
 ### Installation
 
 Les étapes pour utiliser les scripts....
 
 1. Installer Python sur votre machine
-2. Clôner le dépôt [VBA-Inspect](https://git.elosi.com/elie.vandycke/vba-inspect)
+2. Clôner le dépôt [VBA-Inspect](https://github.com/evandycke/vba-inspect)
 3. Installer OleTools
+
 ```bat
 pip install -U oletools
 ```
+
 4. Configurer l'analyse par le biais du fichier vba-inspect.ini
 
 ## Démarrage
@@ -49,7 +49,3 @@ Les logs de l'analyse sont disponibles dans le dossier /log/vba-inspect.log
 ## Contributing
 
 Si vous souhaitez contribuer, lisez le fichier CONTRIBUTING.md pour savoir comment le faire.
-
-## Auteurs
-
-* **Elie VANDYCKE** _alias_ [@elie.vandycke](https://git.elosi.com/elie.vandycke)
